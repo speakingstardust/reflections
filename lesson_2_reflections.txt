@@ -1,0 +1,16 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Git creates a hidden folder that it uses to track changes made to files in the
+repository. 
+In order to use any of the version control features of git you have to first
+create the repository. 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area allows you to control what does, and does not, go into a
+commit. Without a staging area the only choice would be to either add all
+files in the directory to a commit, or add none. 
+There are various reasons why one would need to select to not have ceratin
+files added in a commit to a repository, such as vim swap files or
+environmental configurations that contain senstive data that you not want to
+make publically avaiable on GitHub.
