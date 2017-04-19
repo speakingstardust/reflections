@@ -45,16 +45,3 @@ two branches into one commit. This also makes the parent of that commit the
 last node in the two branches that were merged. This also means that running
 git log will show all commits in both branches all the way back to the initial
 commit.
-
-What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
-
-Pros:
-- Much faster 
--Typically safe as git will determine if it is not and ask you to manually
-merge. 
-
-Cons: 
-- Less control
--More magic 
-- Always safer as the user is always in control, assuming there is no user
-  error.
