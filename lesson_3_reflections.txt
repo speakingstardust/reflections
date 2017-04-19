@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+I use remote repositories to be able to push my work to my production environment on Heroku. 
+This would also be critical in a collaborative environment in which multiple people were editing 
+and working on the same code base. 
