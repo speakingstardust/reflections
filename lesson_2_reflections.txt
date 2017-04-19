@@ -37,3 +37,11 @@ Since git's branching structure makes it possible to create commits that can
 be loss to git's log, it can help to use the graph diagram to completely
 visualize where you are currently in the structure, and what connections might
 need to be made in order to not lose your place. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Mering two branches together means that you merge together all changes made in
+two branches into one commit. This also makes the parent of that commit the
+last node in the two branches that were merged. This also means that running
+git log will show all commits in both branches all the way back to the initial
+commit.
