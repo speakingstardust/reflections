@@ -3,3 +3,11 @@ When would you want to use a remote repository rather than keeping all your work
 I use remote repositories to be able to push my work to my production environment on Heroku. 
 This would also be critical in a collaborative environment in which multiple people were editing 
 and working on the same code base. 
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Because other users might push changes to the repository that would break or
+otherwise in some way mess with what you are currently working on. 
+Manually choosing when to pull, and when not to, makes it ultimately the
+user's perogative to take the changes, or to switch to a new branch and not
+take them. 
