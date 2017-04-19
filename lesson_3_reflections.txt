@@ -11,3 +11,17 @@ otherwise in some way mess with what you are currently working on.
 Manually choosing when to pull, and when not to, makes it ultimately the
 user's perogative to take the changes, or to switch to a new branch and not
 take them. 
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Fork - GitHub clone taken from another publically avaiable codebase.
+Clone - Local or remote copy of a repository that is publically or privately
+avaiable. 
+Branch - A name for a specific commit that allows a git user to quickly return
+to a specific commit in the commit history. 
+
+A fork would be used when you want to make changes to a code base that would
+not be pushed back to the master branch. A clone would be used when you do
+want to be able to push changes back to the master branch. A branch is used on
+all git repositories to allow for experimental, or any other changes, that the
+user wants to be able to quickly jump back to at any time.
