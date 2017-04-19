@@ -14,3 +14,19 @@ There are various reasons why one would need to select to not have ceratin
 files added in a commit to a repository, such as vim swap files or
 environmental configurations that contain senstive data that you not want to
 make publically avaiable on GitHub.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Utilizing the git diff, and the --staged tag, command allows me to clearly
+track changes between my working directory, the staging area, and the most
+recent commit. 
+With these tools I should easily be able to identify exactly what I have
+changed, and only add the correct changes to the staging area and commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches allow me to keep a current "production" ready code base that I can
+easily switch back to when I need to fix bugs or introduce quick features to
+my "production" site. I then can switch back to my "development" branches to
+work on the really big changes that I am working on introducing to the
+"production" branch eventually.  
