@@ -25,3 +25,9 @@ not be pushed back to the master branch. A clone would be used when you do
 want to be able to push changes back to the master branch. A branch is used on
 all git repositories to allow for experimental, or any other changes, that the
 user wants to be able to quickly jump back to at any time.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+This allows the user to be aware of how far ahead, or in other ways different,
+the curent state of the working directory is compared to the remote
+repository. 
